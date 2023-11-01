@@ -1,3 +1,11 @@
+let pessoa = new Pessoa("Fulano", 30, new Date(1993, 5, 14));
+let pessoaFisica = new PessoaFisica("Ciclano", 40, new Date(1983, 3, 25), "123.456.789-00");
+let pessoaJuridica = new PessoaJuridica("Empresa XYZ", 15, new Date(2008, 10, 5), "12.345.678/0001-90");
+
+console.log(pessoa);
+console.log(pessoaFisica);
+console.log(pessoaJuridica);
+
 let contaController = new ContaController();
 
 contaController.listar();
